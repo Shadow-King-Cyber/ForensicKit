@@ -1,0 +1,11 @@
+{
+  "authorized_by": "Nombre del Autorizador",
+  "authorization_date": "2026-01-01",
+  "targets": [
+    {
+      "path": "/evidence/case001",
+      "note": "Dispositivo de laboratorio",
+      "allow_imaging": true
+    }
+  ]
+}
