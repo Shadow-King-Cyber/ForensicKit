@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import click
 
-from ..core.scope_manager import ScopeManager
 from ..core.audit_logger import AuditLogger
 from ..collection.disk_imager import create_image, compute_hashes
 from ..collection.log_collector import collect_system_logs
