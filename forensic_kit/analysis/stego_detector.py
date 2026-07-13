@@ -89,7 +89,7 @@ def detect_trailing_data(file_path: str | Path) -> StegoFinding | None:
 
         # Buscar fin de archivo conocido y datos después de él
         eof_markers = {
-            b"JPEG": [b"\xff\xd9"],
+            "JPEG": [b"\xff\xd9"],
             "PNG": [b"IEND"],
             "GIF": [b"\x00;"],
         }

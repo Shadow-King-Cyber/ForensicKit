@@ -30,7 +30,7 @@ def cli(ctx: click.Context, scope: str, log_file: str) -> None:
 
 
 @cli.command()
-@click.option("--source", required=True, help="Archivo fuente a imaginar")
+@click.option("--source", required=True, help="Archivo fuente para crear imagen forense")
 @click.option("--output", required=True, help="Archivo de salida de la imagen")
 @click.pass_context
 def image(ctx: click.Context, source: str, output: str) -> None:
